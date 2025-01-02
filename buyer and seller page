@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Direct - Buy & Sell</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-green-600 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-2xl font-bold">Farmer Direct</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="#buy" class="hover:underline">Buy Products</a></li>
+                    <li><a href="#sell" class="hover:underline">Sell Products</a></li>
+                    <li><a href="#about-app" class="hover:underline">About App</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-[400px]" style="background-image: url('https://source.unsplash.com/1600x900/?farm,products');">
+        <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center text-white">
+            <h2 class="text-4xl font-bold mb-4">Fresh Produce, Direct from Farms</h2>
+            <p class="text-lg mb-6">Buy and sell farm products with ease and transparency.</p>
+            <a href="#buy" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-400">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Buy Products Section -->
+    <section id="buy" class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Buy Fresh Farm Products</h3>
+            <p class="mb-6">Browse a wide variety of fresh produce and farm products directly from farmers.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?fruits" alt="Fruits" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Fresh Fruits</h4>
+                    <p>Choose from seasonal and exotic fruits, straight from the farm.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?vegetables" alt="Vegetables" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Organic Vegetables</h4>
+                    <p>Find pesticide-free and organically grown vegetables for your family.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?dairy" alt="Dairy Products" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Dairy Products</h4>
+                    <p>Buy fresh milk, cheese, and other dairy products from trusted farmers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sell Products Section -->
+    <section id="sell" class="py-12 bg-green-100">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Sell Your Products</h3>
+            <p class="mb-6">Join the Farmer Direct platform and sell your products directly to consumers.</p>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-1/2 mb-6 md:mb-0">
+                    <img src="https://source.unsplash.com/600x400/?farmers,selling" alt="Selling" class="rounded-lg shadow-md">
+                </div>
+                <div class="w-full md:w-1/2 md:pl-12">
+                    <h4 class="text-xl font-bold mb-3">Why Sell with Farmer Direct?</h4>
+                    <ul class="list-disc list-inside text-left">
+                        <li>Reach a larger customer base directly.</li>
+                        <li>Transparent pricing and fair profits.</li>
+                        <li>Easy-to-use tools to manage your products and sales.</li>
+                    </ul>
+                    <a href="#" class="bg-green-600 text-white px-6 py-3 rounded-lg mt-6 inline-block hover:bg-green-500">Start Selling</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About App Section -->
+    <section id="about-app" class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">About Farmer Direct Selling App</h3>
+            <p class="mb-6">Farmer Direct is an innovative platform designed to connect farmers and consumers. Our app makes it easy to buy fresh produce and sell farm products directly, promoting sustainable practices and supporting local communities.</p>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-1/2 mb-6 md:mb-0">
+                    <img src="https://source.unsplash.com/600x400/?farm,technology" alt="App Technology" class="rounded-lg shadow-md">
+                </div>
+                <div class="w-full md:w-1/2 md:pl-12">
+                    <h4 class="text-xl font-bold mb-3">App Features:</h4>
+                    <ul class="list-disc list-inside text-left">
+                        <li>User-friendly interface for seamless transactions.</li>
+                        <li>Real-time updates on product availability.</li>
+                        <li>Secure payment gateway for safe transactions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 2025 Farmer Direct. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
