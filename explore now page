@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Direct - Available Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-green-600 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-2xl font-bold">Farmer Direct</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="#available-products" class="hover:underline">Available Products</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-[400px]" style="background-image: url('https://source.unsplash.com/1600x900/?farm,market');">
+        <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center text-white">
+            <h2 class="text-4xl font-bold mb-4">Fresh Produce, Direct from Farms</h2>
+            <p class="text-lg mb-6">Buy fresh and organic farm products directly from farmers.</p>
+            <button class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-400" onclick="scrollToProducts()">Explore Products</button>
+        </div>
+    </section>
+
+    <!-- Available Products Section -->
+    <section id="available-products" class="py-12 hidden">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Available Products</h3>
+            <p class="mb-6">Explore the freshest produce directly from local farms!</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Product 1 -->
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?tomatoes" alt="Tomatoes" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Organic Tomatoes</h4>
+                    <p class="text-gray-700">Fresh and juicy organic tomatoes, perfect for salads and cooking.</p>
+                    <p><b>Price:</b> $2.50/kg</p>
+                    <p><b>Quantity Available:</b> 100 kg</p>
+                </div>
+                <!-- Product 2 -->
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?potatoes" alt="Potatoes" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Fresh Potatoes</h4>
+                    <p class="text-gray-700">Golden potatoes, ideal for fries, mashed potatoes, and more.</p>
+                    <p><b>Price:</b> $1.80/kg</p>
+                    <p><b>Quantity Available:</b> 200 kg</p>
+                </div>
+                <!-- Product 3 -->
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?eggs" alt="Farm Eggs" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Farm Fresh Eggs</h4>
+                    <p class="text-gray-700">Cage-free, organic eggs from happy hens.</p>
+                    <p><b>Price:</b> $3.00/dozen</p>
+                    <p><b>Quantity Available:</b> 50 dozen</p>
+                </div>
+                <!-- Product 4 -->
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?milk" alt="Milk" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Fresh Milk</h4>
+                    <p class="text-gray-700">Creamy, farm-fresh milk sourced from trusted dairies.</p>
+                    <p><b>Price:</b> $1.50/L</p>
+                    <p><b>Quantity Available:</b> 300 L</p>
+                </div>
+                <!-- Product 5 -->
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?carrots" alt="Carrots" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Organic Carrots</h4>
+                    <p class="text-gray-700">Crunchy and sweet organic carrots, great for healthy snacks.</p>
+                    <p><b>Price:</b> $2.00/kg</p>
+                    <p><b>Quantity Available:</b> 80 kg</p>
+                </div>
+                <!-- Product 6 -->
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <img src="https://source.unsplash.com/400x300/?honey" alt="Honey" class="rounded-md mb-4">
+                    <h4 class="text-xl font-bold mb-2">Raw Honey</h4>
+                    <p class="text-gray-700">Pure and raw honey harvested directly from the beehives.</p>
+                    <p><b>Price:</b> $5.00/bottle</p>
+                    <p><b>Quantity Available:</b> 50 bottles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 2025 Farmer Direct. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function scrollToProducts() {
+            const productsSection = document.getElementById('available-products');
+            productsSection.classList.remove('hidden');
+            productsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
