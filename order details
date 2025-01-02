@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details - Farmer Direct</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-green-600 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-2xl font-bold">Farmer Direct</h1>
+            <nav>
+                <a href="order-history.html" class="text-white hover:underline">Back to Orders</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Order Details Section -->
+    <section class="py-12">
+        <div class="container mx-auto max-w-4xl bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-center mb-6">Order Details</h2>
+
+            <!-- Order Summary -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold">Order ID: #12345</h3>
+                <p class="text-gray-600">Placed on: Jan 1, 2025</p>
+                <p class="text-gray-600">Status: <span class="text-green-500 font-medium">Delivered</span></p>
+                <p class="text-gray-600">Total: <span class="font-bold">$120.00</span></p>
+            </div>
+
+            <!-- Delivery Information -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold">Delivery Information</h3>
+                <p class="text-gray-600">Address: 123 Main Street, Springfield</p>
+                <p class="text-gray-600">Delivery Date: Jan 5, 2025</p>
+            </div>
+
+            <!-- Items List -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold">Items in this Order</h3>
+                <div class="space-y-4">
+                    <!-- Item 1 -->
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <p class="font-medium">Fresh Apples</p>
+                            <p class="text-gray-600">Quantity: 5kg</p>
+                        </div>
+                        <p class="text-gray-800">$20.00</p>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <p class="font-medium">Organic Carrots</p>
+                            <p class="text-gray-600">Quantity: 3kg</p>
+                        </div>
+                        <p class="text-gray-800">$15.00</p>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <p class="font-medium">Free-Range Eggs</p>
+                            <p class="text-gray-600">Quantity: 12 pcs</p>
+                        </div>
+                        <p class="text-gray-800">$10.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex justify-between items-center">
+                <a href="invoice.pdf" target="_blank"
+                    class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-400">Download Invoice</a>
+                <button class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-400">Reorder</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 2025 Farmer Direct. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
