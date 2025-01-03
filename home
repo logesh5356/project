@@ -13,7 +13,6 @@
         <div class="container mx-auto flex justify-between items-center py-5 px-6">
             <h1 class="text-4xl font-extrabold">Farmer Direct</h1>
             <nav class="flex space-x-8 items-center">
-                <a href="#features" class="hover:text-gray-300 transition duration-200">Features</a>
                 <a href="#products" class="hover:text-gray-300 transition duration-200">Products</a>
                 <a href="#contact" class="hover:text-gray-300 transition duration-200">Contact</a>
                 <a href="login.html" class="bg-white text-green-700 px-6 py-2 rounded-lg font-semibold hover:bg-gray-200 transition duration-200">Login</a>
@@ -33,10 +32,7 @@
         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
         <div class="container mx-auto flex flex-col justify-center items-center h-full text-center relative z-10">
             <h2 class="text-6xl font-extrabold text-white mb-6">Fresh From the Farm</h2>
-            <p class="text-2xl text-gray-200 mb-8">Connecting farmers to customers, delivering freshness to your door.</p>
-            <a href="#products" class="bg-green-500 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:bg-green-400 transition duration-300 shadow-lg">
-                Explore Now
-            </a>
+            <p class="text-2xl text-gray-200">Connecting farmers to customers, delivering freshness to your door.</p>
         </div>
     </section>
 
