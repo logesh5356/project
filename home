@@ -12,17 +12,24 @@
     <header class="bg-gradient-to-r from-green-500 to-green-700 text-white">
         <div class="container mx-auto flex justify-between items-center py-5 px-6">
             <h1 class="text-4xl font-extrabold">Farmer Direct</h1>
-            <nav class="flex space-x-8">
+            <nav class="flex space-x-8 items-center">
                 <a href="#features" class="hover:text-gray-300 transition duration-200">Features</a>
                 <a href="#products" class="hover:text-gray-300 transition duration-200">Products</a>
                 <a href="#contact" class="hover:text-gray-300 transition duration-200">Contact</a>
                 <a href="login.html" class="bg-white text-green-700 px-6 py-2 rounded-lg font-semibold hover:bg-gray-200 transition duration-200">Login</a>
+                <!-- Profile Button -->
+                <a href="profile.html" class="ml-4 bg-gray-700 px-4 py-2 rounded-full hover:bg-gray-600 transition duration-200 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A4.992 4.992 0 015 16a5 5 0 015-5h4a5 5 0 015 5c0 .38-.043.745-.121 1.104M12 14v1m0-1v1m6.121-5.804A4.992 4.992 0 0119 8a5 5 0 10-10 0 4.992 4.992 0 011.121 1.196M12 14v1" />
+                    </svg>
+                    Profile
+                </a>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative bg-cover bg-center h-screen" style="background-image: url('https://via.placeholder.com/1920x1080');">
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('https://via.placeholder.com');">
         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
         <div class="container mx-auto flex flex-col justify-center items-center h-full text-center relative z-10">
             <h2 class="text-6xl font-extrabold text-white mb-6">Fresh From the Farm</h2>
@@ -110,5 +117,3 @@
 
 </body>
 </html>
-
-  
